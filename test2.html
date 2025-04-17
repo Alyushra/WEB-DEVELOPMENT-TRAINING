@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        .navbar img {
+            height: 40px;
+            margin-right: 20px;
+        }
+        .navbar a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            margin-right: 30px;
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .nav-links {
+            display: flex;
+            padding-left: 50px;
+        }
+        .content {
+            text-align: center;
+            padding: 50px 20px;
+            text-align: left;
+        }
+        .content h1 {
+            font-size: 30px;
+            color: #333;
+        }
+        .content p {
+            font-size: 1.2em;
+            color: #666;
+            margin: 10px 0;
+        }
+        .button-container {
+            margin-top: 20px;
+            height: 30px;
+            border-radius: 20px;
+        }
+        
+        .button-container a:hover {
+            background-color: #e55d00;
+        }
+        .buttons{
+            margin-left: auto;
+            display: flex;
+            gap: 10px;
+            height: 30px;
+        }
+        .img-box{
+            border: 1px solid #000;
+            border-radius: 10px;
+            display: inline-block;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <img src="logo.png" alt="Logo">
+            <h3><span style="color: black;">Food</span><span style="color: #ff8737;">Hub</span></h3>
+            <div style="margin: auto;" class="nav-links">
+            <a href="#home" style="color: #ff8737;">Home</a>
+            <a href="#services">Services</a>
+            <a href="#foods">Foods</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            </div>
+            <div class="buttons">
+                <button style="border-radius:20px ;">Sign In</button>
+                <button style="border-radius:20px ; background-color: #ff8737;">Sign Up</button>
+            </div>
+        </div>
+    </nav>
+    <div class="content">
+        <h1>Delicious Meals <br> <span style="color:#ff8737;">Delivered</span>  to Your Door</h1>
+        <p>Enjoy fresh ,flavoural meals mode with the finest ingredients,<br>
+        delivered straight to your door, every time.</p>
+        </p>
+        <div class="button-container">
+            <button style="border-radius: 20px; height: 30px;background-color:#ff8737;">Order Now</button>
+            <button style="border-radius: 20px;height: 30px;">Learn More</button>
+        </div>
+    </div>
+    <h2>Our<span style="color:#ff8737;"> Popular</span> Items</h2>
+    <p>Try our popular items, crafted with fresh, irresistible flavours. </p>
+    <div class="img-box" style="width: 700px; height: 150px; border: 1px solid #000;"></div>
+    <div class="img-box" style="width: 250px; height: 150px; border: 1px solid #000;"></div>
+    <div class="img-box" style="width: 350px; height: 150px; border: 1px solid #000;"></div>
+    <div class="img-box" style="width: 600px; height: 150px; border: 1px solid #000;"></div>
+    <br><br><br><br><br>
+    <div style="display: flex; justify-content: left;">
+        <div class="img-box" style="width: 400px; height: 250px; border: 1px solid #000;"></div>
+        <p style="padding-left: 50px;">Passionate about quality, we create delicious<br>meals with fresh ingredients and care.</p></div>
+</body>
+</html>
