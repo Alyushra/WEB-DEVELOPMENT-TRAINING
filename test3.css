@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-y: scroll;
+  }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+.nav-links{
+    display: flex;
+    gap: 20px;
+  
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+  
+.logo{
+    margin-left: 40px;
+}
+  .top{
+    margin-right: 20px;
+  }
+  .name{
+    font-size: 40px;
+    font-weight:bold;
+  }
+  .in{
+    margin-left: 80px;
+    margin-top: 60px;
+  }
+.download{
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    background-color: orangered;
+    border: none;
+    width: 120px;
+    height: 25px;
+  }
+
+.img{
+    margin-left: 200px;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+.parent{
+    display: flex;
+    background-image: url('img1.jpeg');
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    height: 400px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.down{
+    display: flex;
+}
+.box1{
+    width: 250px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-color: gray;
+    box-shadow: 0px 0px 10px gray;
+    opacity: 0.8;
+    margin-top: 30px;
+    margin-left: 190px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.box2{
+    width: 250px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-color: gray;
+    box-shadow: 0px 0px 10px gray;
+    opacity: 0.8;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.box3{
+    width: 250px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-color: gray;
+    box-shadow: 0px 0px 10px gray;
+    opacity: 0.8;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.box4{
+    width: 250px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-color: gray;
+    box-shadow: 0px 0px 10px gray;
+    opacity: 0.8;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.parent1{
+    display: flex;
+    background-image: url('img1.jpeg');
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    height: 430px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.in1{
+    margin-left: 220px;
+    margin-top: 40px;
+  }
+  .down1{
+    display: flex;
+}
+.box1-1{
+    width: 250px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-color: gray;
+    box-shadow: 0px 0px 10px gray;
+    opacity: 0.8;
+    margin-top: 30px;
+    margin-left: 320px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.box2-2{
+    width: 250px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-color: gray;
+    box-shadow: 0px 0px 10px gray;
+    opacity: 0.8;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.box3-3{
+    width: 250px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-color: gray;
+    box-shadow: 0px 0px 10px gray;
+    opacity: 0.8;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.buttons{
+    display: flex;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    background-color: orangered;
+    border: none;
+    width: 150px;
+    height: 25px;
+    margin-left: 40px;
+  }
