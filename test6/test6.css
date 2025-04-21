@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 350px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgba(236, 79, 79, 0.2);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    background-color: #ddd;
+    border-radius: 50%;
+}
+
+.highlight {
+    color: #007BFF;
+}
+
+.subtext {
+    color: #666;
+    font-size: 14px;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.last-added {
+    margin-bottom: 20px;
+}
+.scrollable{
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+
+}
+.card {
+    background: #f9f9f9;
+    padding: 5px;
+    border-radius: 30px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    width: 120px;
+    height: 80px;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.card-subtext {
+    color: #666;
+    font-size: 12px;
+    margin-left: 9px;
+
+}
+
+.tasks-list {
+    margin-bottom: 20px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    height: 90px;
+}
+
+.task-title {
+    font-weight: bold;
+
+}
+
+.task-subtext {
+    color: #666;
+    font-size: 14px;
+}
+
+.task-progress {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.create-task-button {
+    width: 150px;
+    padding: 10px;
+    margin-left: 80px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.create-task-button:hover {
+    background-color: #0056b3;
+}
+.create-task-page {
+    max-width: 400px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-task-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.create-task-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.create-task-form input,
+.create-task-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.create-task-form textarea {
+    resize: none;
+    height: 80px;
+}
+
+.priority-options {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    gap: 40px;
+    margin-left: 15px;
+}
+
+.priority-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+}
+
+.priority-button.high {
+    background-color: #dc3545;
+    border-radius: 20px;
+}
+
+.priority-button.medium {
+    background-color: #ffc107;
+    border-radius: 20px;
+}
+
+.priority-button.low {
+    background-color: #28a745;
+    border-radius: 20px;
+}
+
+.add-sub-task-button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.add-sub-task-button:hover {
+    background-color: #0056b3;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.add-task-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-task-button:hover {
+    background-color: #0056b3;
+}
+
+.clear-button {
+    padding: 10px 20px;
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.clear-button:hover {
+    background-color: #5a6268;
+}

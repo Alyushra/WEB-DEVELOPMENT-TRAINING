@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test6.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="avatar"></div>
+            <div>
+                <h2>Hello, <span class="highlight">Damian</span></h2>
+                <p class="subtext">Manage your tasks!</p>
+            </div>
+            <div class="menu">
+                <button class="menu-button">⋮</button>
+            </div>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search..." class="search-input">
+        </div>
+        <div class="last-added">
+            <h3>Last added</h3>
+            <div class="scrollable">
+                <div class="card"style="width:140px">
+                    <div class="line" style="margin-right: 8px;margin-top: 12px;border-right: 4px solid green;">
+                    <p class="card-title" >Football Cup training dribbling</p>
+                    <p class="card-subtext">3 tasks</p> </div>
+                </div>
+                <div class="card">
+                    <div class="line" style="margin-right: 8px;margin-top: 12px;border-right: 4px solid red;">
+                    <p class="card-title" >UI/UX App Design</p>
+                    <p class="card-subtext">5 tasks</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="tasks-list">
+            <h3>Tasks list</h3>
+            <div class="task">
+                <div class="task-progress">75%</div>
+                <div style="margin-right: 8px;margin-top: 3px;border-right: 4px solid rgb(195, 255, 0);">
+                    <p class="task-title" style="margin-right: 50px;">UI/UX App Design</p>
+                    <p class="task-subtext" >3 tasks</p>
+                </div>
+
+            </div>
+            <div class="task">
+                <div class="task-progress">75%</div>
+                <div style="margin-right: 8px;border-right: 4px solid rgb(0, 26, 255);height: 80px;">
+                    <p class="task-title" style="margin-left: 70px;">View candidates' resumes</p>
+                    <p class="task-subtext" style="margin-left: 70px;">2 tasks</p>
+                </div>
+
+            </div>
+        </div>
+        <button class="create-task-button">Create task</button>
+    </div>
+    <div class="create-task-page">
+        <div class="create-task-header">
+            <button class="back-button">←</button>
+            <h2>Create new task</h2>
+            <button class="menu-button">⋮</button>
+        </div>
+        <form class="create-task-form">
+            <label for="task-name">Main task name</label>
+            <input type="text" id="task-name" placeholder="Enter task name">
+
+            <label for="due-date">Due date</label>
+            <input type="datetime-local" id="due-date">
+
+            <label>Choose priority</label>
+            <div class="priority-options">
+                <button type="button" class="priority-button high">High</button>
+                <button type="button" class="priority-button medium">Medium</button>
+                <button type="button" class="priority-button low">Low</button>
+            </div>
+
+            <label for="sub-task">Sub-task name</label>
+            <input type="text" id="sub-task" placeholder="Enter sub-task name">
+            <button type="button" class="add-sub-task-button">Add sub-task</button>
+            <br>
+            <label for="description">Description</label>
+            <textarea id="description" placeholder="Enter task description"></textarea>
+
+            <div class="form-buttons">
+                <button type="submit" class="add-task-button">Add task</button>
+                <button type="reset" class="clear-button">Clear</button>
+            </div>
+        </form>
+    </div>
+    <div class="create-task-page">
+        <div class="create-task-header">
+            <button class="back-button">←</button>
+            <h2>Edit task</h2>
+            <button class="menu-button">⋮</button>
+        </div>
+        <form class="create-task-form">
+            <label for="task-name">Main task name</label>
+            <input type="text" id="task-name" placeholder="Enter task name">
+
+            <label for="due-date">Due date</label>
+            <input type="datetime-local" id="due-date">
+
+            <label>Choose priority</label>
+            <div class="priority-options">
+                <button type="button" class="priority-button high">High</button>
+                <button type="button" class="priority-button medium">Medium</button>
+                <button type="button" class="priority-button low">Low</button>
+            </div>
+
+            <label for="sub-task">Sub-task name</label>
+            <input type="text" id="sub-task" placeholder="Enter sub-task name">
+            <button type="button" class="add-sub-task-button">Add sub-task</button>
+            <br>
+            <label for="description">Description</label>
+            <textarea id="description" placeholder="Enter task description"></textarea>
+
+            <div class="form-buttons">
+                <button type="submit" class="add-task-button">Edit task</button>
+                <button type="reset" class="clear-button">Clear</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
