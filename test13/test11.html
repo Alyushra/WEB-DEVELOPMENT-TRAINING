@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Booking</title>
+    <link rel="stylesheet" href="test11.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="logo.png" alt="Logo">
+            <span>abhibus</span>
+        </div>
+        <nav>
+            <a href="#">Buses</a>
+            <a href="#">Flights</a>
+            <a href="#">Trains</a>
+            <a href="#">Hotels</a>
+        </nav>
+    </header>
+
+    <div class="search-bar">
+        <input type="text" placeholder="From">
+        <input type="text" placeholder="To">
+        <button class="to">Today</button>
+        <button class="to">Tomorrow</button>
+        <input type="date">
+        <button>Search</button>
+    </div>
+
+    <div class="container">
+        <aside class="filters">
+            <div style="display: flex;justify-content: space-between;"><h3>Filters</h3>
+            <h3 style="font-size: 14px;color: #7c7c7c;">Clear All</h3></div>
+            <label>Bus Type</label>
+            <label><input type="checkbox"> AC</label>
+            <label><input type="checkbox"> Sleeper</label>
+            <label><input type="checkbox"> Seater</label>
+            <label><input type="checkbox"> Non AC</label>
+
+            <label>Price Range</label>
+            <input type="range" min="674" max="3999">
+
+            <label>Departure Time</label>
+            <label><input type="radio" name="time"> Before 10 AM</label>
+            <label><input type="radio" name="time"> 10 AM - 5 PM</label>
+            <label><input type="radio" name="time"> 5 PM - 11 PM</label>
+            <label><input type="radio" name="time"> After 11 PM</label><br>
+            <div style="margin-left:10px ;">
+            <select style="display: block;">
+                <option value="bus_partner">Bus Partner</option>
+            </select><br>
+            <select style="display: block;">
+                <option value="bus_partner">Boarding Point</option>
+            </select><br>
+            <select>
+                <option value="bus_partner">Droping Point</option>
+            </select></div>
+        </aside>
+        
+        <section class="results">
+            <div class="bus">
+                <div class="details">
+                    <h4>TSRTC</h4>
+                    <div class="price">From<span style="color: black;"> ₹761</span></div>
+                </div>
+                <div class="view">
+                    <p>23 Buses, 643 Seats Available</p>
+                    <button>View Buses</button>
+                </div>
+            </div>
+
+            <div class="bus">
+                <div class="details">
+                    <h4>Yolo Bus</h4>
+                    <div class="price">From<span style="color: black;"> ₹1,030</span></div>
+                </div>
+                <div class="view">
+                <p>Bharat Benz AC Sleeper (2 + 1)</p>
+                <button>Select Seats</button></div>
+                <button style="color: rgb(0, 89, 255);background-color: rgb(96, 215, 255);border-radius: 20px;">Brand New</button>
+            </div>
+
+            <div class="bus">
+                <div class="details">
+                    <h4>SL Travels</h4>
+                    <div class="price">From<span style="color: black;"> ₹1,509</span></div>
+                </div>
+                <div class="view">
+                <p>2+1, Sleeper, NON-AC</p>
+                <button>Select Seats</button></div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
